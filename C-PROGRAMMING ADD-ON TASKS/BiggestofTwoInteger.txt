@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    
+    int a;
+    int b;
+    
+    printf("Enter a Value for a : ");
+    scanf("%d",&a);
+    printf("Enter a Value for b : ");
+    scanf("%d",&b);
+    
+    int temp = (a>b)? a:b;
+    printf("The Value of a is bigger",temp);
+
+    
+    
+
+    return 0;
+}
