@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+  
+  int n=10000;
+  for(int a=0;a<=n;a++){
+      
+      if(a%2==0){
+          printf("The Even numbers are : %d\n",a);
+      }
+      else{
+          printf("The Odd values are : %d\n",a);
+      }
+     
+  }
+  
+  
+    return 0;
+}

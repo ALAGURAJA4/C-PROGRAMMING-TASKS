@@ -1,0 +1,27 @@
+
+int main() {
+   
+   int i,num;
+   int fact = 1;
+   int sum = 0;
+   printf("Enter a Number : ");
+   scanf("%d",&num);
+   
+   
+   if(num<0){
+       printf("Negative numbers are not Allowed for Factorial");
+   }
+   else{
+       for(i=1;i<=num;i++){
+           fact = fact*i;
+           sum = sum+i;
+            
+       }
+      printf("Factorial of %d is %d\n",num,fact);
+      
+      printf("Sum of Factorial of numbers : %d",sum);
+   }
+  
+  
+    return 0;
+}

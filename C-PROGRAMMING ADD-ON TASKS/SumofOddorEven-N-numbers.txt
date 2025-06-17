@@ -1,0 +1,29 @@
+#include<stdio.h>
+int main()
+{
+   int sum=0,sum1=0;
+   int init , final;
+  
+  printf("Enter the Initial value: ");
+  scanf("%d",&init);
+  printf("Enter the final value: ");
+  scanf("%d",&final);
+  
+  for(int i=init;i<=final;i++){
+     if(i%2==0){
+         printf("Even : %d\n",i);
+         sum=sum+i;
+     }
+     else
+     {
+         printf("Odd : %d\n",i);
+         sum1=sum1+i;
+     }
+    
+  }
+   printf("Sum of even Numbers is : %d\n ",sum);
+   printf("Sum of odd Numbers is : %d",sum1);
+  
+  
+    return 0;
+}
