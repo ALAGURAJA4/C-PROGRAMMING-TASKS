@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int age =21;
+    int *p;
+     
+     p=&age;
+     
+     printf(" Address of age : %d\n",p);
+          printf(" Address of pointer : %d\n",&p);
+
+     printf(" Value of age : %d",*p);
+    
+
+    return 0;
+}

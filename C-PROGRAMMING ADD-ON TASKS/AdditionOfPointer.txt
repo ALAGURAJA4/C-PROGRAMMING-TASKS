@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    int a =5;
+    int b =10;
+    int *c;
+    int *d;
+    int sum;
+    c=&a;
+    d=&b;
+    sum = *c+*d;
+    printf("Addition of given pointers is : %d",sum);
+    return 0;
+}
